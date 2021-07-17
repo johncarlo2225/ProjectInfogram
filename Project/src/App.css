@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+}
+.app_header{
+  position: sticky;
+  top: 0;
+  background-color: white;
+  object-fit: contain;
+  padding: 20px;
+  border: 1px solid white;
+  border-radius: 0px;
+  padding: 1%;
+  display: flex;
+  object-fit: contain;
+
+}
+.app_loginContainer{
+  max-width: 170px;
+  border: 1px solid lightgray;
+  margin-left: 850px;
+  margin-right: 0px;
+  padding: 0px;
+  border-radius: 20px;
+  display: flex;
+  border-color: lightgray;
+  height: 80px;
+  background-color: lightgray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  
+
+}
+.app{
+  background-color: white;
+  height: 100vh;
+}
+.app_signup{
+  display: flex;
+  flex-direction: column;
+}
+h1{
+  text-align: center;
+  font-size: 45px;
+}
+.app_posts{
+  padding: 20px;
+}
